@@ -32,4 +32,4 @@ Implementation:
 - Copy the modules_checkout_confirmation_step.json into ClicShopping/Work/Cache/Github (manual installation)
 
 
-![image](https://github.com/ClicShoppingOfficialModulesV3/modules_checkout_confirmation_step/blob/master/ModuleInfosJson/image.png)
+![image](https://github.com/ClicShoppingCommunityModulesV3/modules_checkout_confirmation_step/blob/master/ModuleInfosJson/image.png)

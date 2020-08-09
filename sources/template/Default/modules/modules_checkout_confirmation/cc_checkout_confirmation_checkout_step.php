@@ -43,7 +43,7 @@
 
         $content_width = (int)MODULE_CHECKOUT_CONFIRMATION_CHECKOUT_STEP_CONTENT_WIDTH;
 
-        $shopping_cart_information_customers = '  <!-- start ms_shopping_cart_step -->'. "\n";
+        $shopping_cart_information_customers = '  <!-- start ms_shopping_cart_step -->' . "\n";
 
         ob_start();
         require_once($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/checkout_confirmation_checkout_step'));

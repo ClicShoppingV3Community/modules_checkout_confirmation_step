@@ -113,7 +113,7 @@
     }
     
     public function keys() {
-      return array (
+      return array(
         'MODULE_CHECKOUT_CONFIRMATION_CHECKOUT_STEP_STATUS',
         'MODULE_CHECKOUT_CONFIRMATION_CHECKOUT_STEP_CONTENT_WIDTH',
         'MODULE_CHECKOUT_CONFIRMATION_CHECKOUT_STEP_SORT_ORDER'

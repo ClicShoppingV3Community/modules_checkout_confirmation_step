@@ -16,8 +16,8 @@
   class cc_checkout_confirmation_checkout_step {
     public string $code;
     public string $group;
-    public string $title;
-    public string $description;
+    public $title;
+    public $description;
     public ?int $sort_order = 0;
     public bool $enabled = false;
 
@@ -39,7 +39,7 @@
       $CLICSHOPPING_Template = Registry::get('Template');
       $CLICSHOPPING_Customer = Registry::get('Customer');
 
-      if (isset($_GET['Checkout']) && isset($_GET['Confirmation']) && $CLICSHOPPING_Customer->isLoggedOn()) {
+      if (isset($_GET['Checkout'], $_GET['Confirmation']) && $CLICSHOPPING_Customer->isLoggedOn()) {
 
         $content_width = (int)MODULE_CHECKOUT_CONFIRMATION_CHECKOUT_STEP_CONTENT_WIDTH;
 
